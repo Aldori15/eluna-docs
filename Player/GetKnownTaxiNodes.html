@@ -69,13 +69,12 @@
     
     <div class='docblock'>
         <p>Returns known taxi nodes (flight paths) that the player has unlocked.</p>
-<p>@return table<int> A table containing the IDs of the known taxi nodes.</p>
 
         <h2 id="synopsis" class='section-header'>
             <a href="#synopsis">Synopsis</a>
         </h2>
         <p>
-            <code>Player:GetKnownTaxiNodes()</code>
+            <code>nodes = Player:GetKnownTaxiNodes()</code>
         </p>
 
         <h2 id="arguments" class='section-header'>
@@ -89,7 +88,10 @@
             <a href="#returns">Returns</a>
         </h2>
         <p>
-            Nothing.
+            <dl>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.5.html">table</a></strong> nodes</code></dt>
+                <dd class="docblock"><p>A table containing the IDs of the known taxi nodes.. </p></dd>
+            </dl>
         </p>
     </div>
 
