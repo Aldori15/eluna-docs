@@ -38,7 +38,6 @@ document.write(`
   <a id="Player:GetActiveSpec" class="fn" href="../Player/GetActiveSpec.html">GetActiveSpec</a>
   <a id="Player:GetArenaPoints" class="fn" href="../Player/GetArenaPoints.html">GetArenaPoints</a>
   <a id="Player:GetBaseSkillValue" class="fn" href="../Player/GetBaseSkillValue.html">GetBaseSkillValue</a>
-  <a id="Player:GetBattleRank" class="fn" href="../Player/GetBattleRank.html">GetBattleRank</a>
   <a id="Player:GetBattlegroundId" class="fn" href="../Player/GetBattlegroundId.html">GetBattlegroundId</a>
   <a id="Player:GetBattlegroundTypeId" class="fn" href="../Player/GetBattlegroundTypeId.html">GetBattlegroundTypeId</a>
   <a id="Player:GetBonusTalentCount" class="fn" href="../Player/GetBonusTalentCount.html">GetBonusTalentCount</a>
@@ -87,10 +86,6 @@ document.write(`
   <a id="Player:GetPhaseMaskForSpawn" class="fn" href="../Player/GetPhaseMaskForSpawn.html">GetPhaseMaskForSpawn</a>
   <a id="Player:GetPlayerIP" class="fn" href="../Player/GetPlayerIP.html">GetPlayerIP</a>
   <a id="Player:GetPlayerSettingValue" class="fn" href="../Player/GetPlayerSettingValue.html">GetPlayerSettingValue</a>
-  <a id="Player:GetPremiumDays" class="fn" href="../Player/GetPremiumDays.html">GetPremiumDays</a>
-  <a id="Player:GetPrestige" class="fn" href="../Player/GetPrestige.html">GetPrestige</a>
-  <a id="Player:GetProgressCap" class="fn" href="../Player/GetProgressCap.html">GetProgressCap</a>
-  <a id="Player:GetProgressPoints" class="fn" href="../Player/GetProgressPoints.html">GetProgressPoints</a>
   <a id="Player:GetPureMaxSkillValue" class="fn" href="../Player/GetPureMaxSkillValue.html">GetPureMaxSkillValue</a>
   <a id="Player:GetPureSkillValue" class="fn" href="../Player/GetPureSkillValue.html">GetPureSkillValue</a>
   <a id="Player:GetQuestLevel" class="fn" href="../Player/GetQuestLevel.html">GetQuestLevel</a>
@@ -114,7 +109,6 @@ document.write(`
   <a id="Player:GetTrader" class="fn" href="../Player/GetTrader.html">GetTrader</a>
   <a id="Player:GetXP" class="fn" href="../Player/GetXP.html">GetXP</a>
   <a id="Player:GetXPRestBonus" class="fn" href="../Player/GetXPRestBonus.html">GetXPRestBonus</a>
-  <a id="Player:GiveProgressPoints" class="fn" href="../Player/GiveProgressPoints.html">GiveProgressPoints</a>
   <a id="Player:GiveXP" class="fn" href="../Player/GiveXP.html">GiveXP</a>
   <a id="Player:GossipAddQuests" class="fn" href="../Player/GossipAddQuests.html">GossipAddQuests</a>
   <a id="Player:GossipClearMenu" class="fn" href="../Player/GossipClearMenu.html">GossipClearMenu</a>
@@ -164,7 +158,6 @@ document.write(`
   <a id="Player:IsInSameRaidWith" class="fn" href="../Player/IsInSameRaidWith.html">IsInSameRaidWith</a>
   <a id="Player:IsInWater" class="fn" href="../Player/IsInWater.html">IsInWater</a>
   <a id="Player:IsMoving" class="fn" href="../Player/IsMoving.html">IsMoving</a>
-  <a id="Player:IsPremium" class="fn" href="../Player/IsPremium.html">IsPremium</a>
   <a id="Player:IsRested" class="fn" href="../Player/IsRested.html">IsRested</a>
   <a id="Player:IsTaxiCheater" class="fn" href="../Player/IsTaxiCheater.html">IsTaxiCheater</a>
   <a id="Player:IsVisibleForPlayer" class="fn" href="../Player/IsVisibleForPlayer.html">IsVisibleForPlayer</a>
@@ -205,7 +198,6 @@ document.write(`
   <a id="Player:SendAuctionMenu" class="fn" href="../Player/SendAuctionMenu.html">SendAuctionMenu</a>
   <a id="Player:SendBroadcastMessage" class="fn" href="../Player/SendBroadcastMessage.html">SendBroadcastMessage</a>
   <a id="Player:SendCinematicStart" class="fn" href="../Player/SendCinematicStart.html">SendCinematicStart</a>
-  <a id="Player:SendCombatLogPPGain" class="fn" href="../Player/SendCombatLogPPGain.html">SendCombatLogPPGain</a>
   <a id="Player:SendGuildInvite" class="fn" href="../Player/SendGuildInvite.html">SendGuildInvite</a>
   <a id="Player:SendListInventory" class="fn" href="../Player/SendListInventory.html">SendListInventory</a>
   <a id="Player:SendMovieStart" class="fn" href="../Player/SendMovieStart.html">SendMovieStart</a>
@@ -223,7 +215,6 @@ document.write(`
   <a id="Player:SetAchievement" class="fn" href="../Player/SetAchievement.html">SetAchievement</a>
   <a id="Player:SetArenaPoints" class="fn" href="../Player/SetArenaPoints.html">SetArenaPoints</a>
   <a id="Player:SetAtLoginFlag" class="fn" href="../Player/SetAtLoginFlag.html">SetAtLoginFlag</a>
-  <a id="Player:SetBattleRank" class="fn" href="../Player/SetBattleRank.html">SetBattleRank</a>
   <a id="Player:SetBindPoint" class="fn" href="../Player/SetBindPoint.html">SetBindPoint</a>
   <a id="Player:SetBonusTalentCount" class="fn" href="../Player/SetBonusTalentCount.html">SetBonusTalentCount</a>
   <a id="Player:SetCoinage" class="fn" href="../Player/SetCoinage.html">SetCoinage</a>
@@ -241,9 +232,6 @@ document.write(`
   <a id="Player:SetKnownTitle" class="fn" href="../Player/SetKnownTitle.html">SetKnownTitle</a>
   <a id="Player:SetLifetimeKills" class="fn" href="../Player/SetLifetimeKills.html">SetLifetimeKills</a>
   <a id="Player:SetPlayerLock" class="fn" href="../Player/SetPlayerLock.html">SetPlayerLock</a>
-  <a id="Player:SetPremiumDays" class="fn" href="../Player/SetPremiumDays.html">SetPremiumDays</a>
-  <a id="Player:SetPrestige" class="fn" href="../Player/SetPrestige.html">SetPrestige</a>
-  <a id="Player:SetPrestigePlayerFrame" class="fn" href="../Player/SetPrestigePlayerFrame.html">SetPrestigePlayerFrame</a>
   <a id="Player:SetPvPDeath" class="fn" href="../Player/SetPvPDeath.html">SetPvPDeath</a>
   <a id="Player:SetQuestStatus" class="fn" href="../Player/SetQuestStatus.html">SetQuestStatus</a>
   <a id="Player:SetReputation" class="fn" href="../Player/SetReputation.html">SetReputation</a>

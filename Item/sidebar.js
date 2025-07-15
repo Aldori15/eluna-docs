@@ -23,7 +23,6 @@ document.write(`
   <a id="Item:GetQuality" class="fn" href="../Item/GetQuality.html">GetQuality</a>
   <a id="Item:GetRandomProperty" class="fn" href="../Item/GetRandomProperty.html">GetRandomProperty</a>
   <a id="Item:GetRandomSuffix" class="fn" href="../Item/GetRandomSuffix.html">GetRandomSuffix</a>
-  <a id="Item:GetRequiredBattleRank" class="fn" href="../Item/GetRequiredBattleRank.html">GetRequiredBattleRank</a>
   <a id="Item:GetRequiredLevel" class="fn" href="../Item/GetRequiredLevel.html">GetRequiredLevel</a>
   <a id="Item:GetSellPrice" class="fn" href="../Item/GetSellPrice.html">GetSellPrice</a>
   <a id="Item:GetSlot" class="fn" href="../Item/GetSlot.html">GetSlot</a>

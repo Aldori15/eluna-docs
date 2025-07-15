@@ -13,7 +13,6 @@ document.write(`
   <a id="ItemTemplate:GetItemLevel" class="fn" href="../ItemTemplate/GetItemLevel.html">GetItemLevel</a>
   <a id="ItemTemplate:GetName" class="fn" href="../ItemTemplate/GetName.html">GetName</a>
   <a id="ItemTemplate:GetQuality" class="fn" href="../ItemTemplate/GetQuality.html">GetQuality</a>
-  <a id="ItemTemplate:GetRequiredBattleRank" class="fn" href="../ItemTemplate/GetRequiredBattleRank.html">GetRequiredBattleRank</a>
   <a id="ItemTemplate:GetRequiredLevel" class="fn" href="../ItemTemplate/GetRequiredLevel.html">GetRequiredLevel</a>
   <a id="ItemTemplate:GetSellPrice" class="fn" href="../ItemTemplate/GetSellPrice.html">GetSellPrice</a>
   <a id="ItemTemplate:GetSubClass" class="fn" href="../ItemTemplate/GetSubClass.html">GetSubClass</a>
