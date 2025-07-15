@@ -68,13 +68,13 @@
 
     
     <div class='docblock'>
-        <p>Reads and returns an unsigned 16-bit integer value from the <a class="mod" href="../WorldPacket/index.html">WorldPacket</a>.</p>
+        <p>Reads and returns a packed [ObjectGuid] value from the <a class="mod" href="../WorldPacket/index.html">WorldPacket</a>.</p>
 
         <h2 id="synopsis" class='section-header'>
             <a href="#synopsis">Synopsis</a>
         </h2>
         <p>
-            <code>ObjectGuid = WorldPacket:ReadPackedGUID()</code>
+            <code>guid = WorldPacket:ReadPackedGUID()</code>
         </p>
 
         <h2 id="arguments" class='section-header'>
@@ -89,8 +89,8 @@
         </h2>
         <p>
             <dl>
-                <dt><code><strong><a href="https://github.com/ElunaLuaEngine/ElunaTrinityWotlk/search?l=cpp&q=%22enum+acke%22&type=Code&utf8=%E2%9C%93">acke</a></strong> ObjectGuid</code></dt>
-                <dd class="docblock"><em>See method description.</em></dd>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.4.html">string</a></strong> guid</code></dt>
+                <dd class="docblock"><p>The unpacked GUID as a string. </p></dd>
             </dl>
         </p>
     </div>

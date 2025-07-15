@@ -197,7 +197,7 @@ searchIndex["Achievement"] = {
 };searchIndex["GameObject"] = {
     "items": [
         [0, "", "GameObject", "Inherits all methods from: <a class=\"mod\" href=\"Object/index.html\">Object</a>, <a class=\"mod\" href=\"WorldObject/index.html\">WorldObject</a>"],
-        [3, "AddLoot", "", "Adds an <a class=\"mod\" href=\"Item/index.html\">Item</a> to the loot of a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a> Requires an gameobject with loot_template set to 0."],
+        [3, "AddLoot", "", "Adds an <a class=\"mod\" href=\"Item/index.html\">Item</a> to the loot of a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>. Requires a gameobject with loot_template set to 0."],
         [3, "Despawn", "", "Despawns a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>"],
         [3, "GetDBTableGUIDLow", "", "Returns the guid of the <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a> that is used as the ID in the database"],
         [3, "GetDisplayId", "", "Returns display ID of the <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>"],
@@ -593,7 +593,7 @@ searchIndex["Achievement"] = {
         [3, "CanRewardQuest", "", "Returns <code>true</code> if the <a class=\"mod\" href=\"Player/index.html\">Player</a> satisfies all requirements to reward the quest entry."],
         [3, "CanShareQuest", "", "Returns <code>true</code> if the <a class=\"mod\" href=\"Player/index.html\">Player</a> can share <a class=\"mod\" href=\"Quest/index.html\">Quest</a> specified by ID, <code>false</code> otherwise."],
         [3, "CanSpeak", "", "Returns <code>true</code> if the <a class=\"mod\" href=\"Player/index.html\">Player</a> can currently communicate through chat, <code>false</code> otherwise."],
-        [3, "CanTitanGrip", "", "Returns <code>true</code> if the <a class=\"mod\" href=\"Player/index.html\">Player</a> can Titan Grip the specific <a class=\"mod\" href=\"Item/index.html\">Item</a>, <code>false</code> otherwise."],
+        [3, "CanTitanGrip", "", "Returns <code>true</code> if the <a class=\"mod\" href=\"Player/index.html\">Player</a> can Titan Grip the given <a class=\"mod\" href=\"Item/index.html\">Item</a>, <code>false</code> otherwise."],
         [3, "CanUninviteFromGroup", "", "Returns <code>true</code> if the <a class=\"mod\" href=\"Player/index.html\">Player</a> has permission to uninvite others from the current group, <code>false</code> otherwise."],
         [3, "CanUseItem", "", "Returns <code>true</code> if the <a class=\"mod\" href=\"Player/index.html\">Player</a> can use the item or item entry specified, <code>false</code> otherwise."],
         [3, "ClearComboPoints", "", "Clears the <a class=\"mod\" href=\"Player/index.html\">Player</a>s combo points"],
@@ -1324,7 +1324,7 @@ searchIndex["Achievement"] = {
         [3, "ReadFloat", "", "Reads and returns a single-precision floating-point value from the <a class=\"mod\" href=\"WorldPacket/index.html\">WorldPacket</a>."],
         [3, "ReadGUID", "", "Reads and returns an unsigned 64-bit integer value from the <a class=\"mod\" href=\"WorldPacket/index.html\">WorldPacket</a>."],
         [3, "ReadLong", "", "Reads and returns a signed 32-bit integer value from the <a class=\"mod\" href=\"WorldPacket/index.html\">WorldPacket</a>."],
-        [3, "ReadPackedGUID", "", "Reads and returns an unsigned 16-bit integer value from the <a class=\"mod\" href=\"WorldPacket/index.html\">WorldPacket</a>."],
+        [3, "ReadPackedGUID", "", "Reads and returns a packed [ObjectGuid] value from the <a class=\"mod\" href=\"WorldPacket/index.html\">WorldPacket</a>."],
         [3, "ReadShort", "", "Reads and returns a signed 16-bit integer value from the <a class=\"mod\" href=\"WorldPacket/index.html\">WorldPacket</a>."],
         [3, "ReadString", "", "Reads and returns a string value from the <a class=\"mod\" href=\"WorldPacket/index.html\">WorldPacket</a>."],
         [3, "ReadUByte", "", "Reads and returns an unsigned 8-bit integer value from the <a class=\"mod\" href=\"WorldPacket/index.html\">WorldPacket</a>."],
