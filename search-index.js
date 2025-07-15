@@ -500,7 +500,7 @@ searchIndex["Achievement"] = {
         [3, "AddItem", "", "Adds an <a class=\"mod\" href=\"Item/index.html\">Item</a> to the <a class=\"mod\" href=\"Loot/index.html\">Loot</a> with specified parameters"],
         [3, "Clear", "", "Clears all items and gold from the <a class=\"mod\" href=\"Loot/index.html\">Loot</a>"],
         [3, "GenerateMoney", "", "Generates a random gold value for the <a class=\"mod\" href=\"Loot/index.html\">Loot</a> between min and max"],
-        [3, "GetItems", "", "Returns a table of [LootItem]s in the <a class=\"mod\" href=\"Loot/index.html\">Loot</a> with keys: id, index, count, needs_quest, is_looted, roll_winner_guid"],
+        [3, "GetItems", "", "Returns a table of items in the <a class=\"mod\" href=\"Loot/index.html\">Loot</a> with keys:  id, index, count, needs_quest, is_looted, roll_winner_guid"],
         [3, "GetMoney", "", "Returns the amount of gold in the <a class=\"mod\" href=\"Loot/index.html\">Loot</a>"],
         [3, "GetUnlootedCount", "", "Returns the number of unlooted items in the <a class=\"mod\" href=\"Loot/index.html\">Loot</a>"],
         [3, "HasItem", "", "Returns 'true' if the <a class=\"mod\" href=\"Loot/index.html\">Loot</a> contains the specified <a class=\"mod\" href=\"Item/index.html\">Item</a>, 'false' otherwise"],
