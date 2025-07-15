@@ -1,0 +1,1 @@
+document.write("15/07/2025");
