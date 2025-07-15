@@ -1324,7 +1324,7 @@ searchIndex["Achievement"] = {
         [3, "ReadFloat", "", "Reads and returns a single-precision floating-point value from the <a class=\"mod\" href=\"WorldPacket/index.html\">WorldPacket</a>."],
         [3, "ReadGUID", "", "Reads and returns an unsigned 64-bit integer value from the <a class=\"mod\" href=\"WorldPacket/index.html\">WorldPacket</a>."],
         [3, "ReadLong", "", "Reads and returns a signed 32-bit integer value from the <a class=\"mod\" href=\"WorldPacket/index.html\">WorldPacket</a>."],
-        [3, "ReadPackedGUID", "", "Reads and returns a packed [ObjectGuid] value from the <a class=\"mod\" href=\"WorldPacket/index.html\">WorldPacket</a>."],
+        [3, "ReadPackedGUID", "", "Reads and returns an unsigned 16-bit integer value from the <a class=\"mod\" href=\"WorldPacket/index.html\">WorldPacket</a>."],
         [3, "ReadShort", "", "Reads and returns a signed 16-bit integer value from the <a class=\"mod\" href=\"WorldPacket/index.html\">WorldPacket</a>."],
         [3, "ReadString", "", "Reads and returns a string value from the <a class=\"mod\" href=\"WorldPacket/index.html\">WorldPacket</a>."],
         [3, "ReadUByte", "", "Reads and returns an unsigned 8-bit integer value from the <a class=\"mod\" href=\"WorldPacket/index.html\">WorldPacket</a>."],

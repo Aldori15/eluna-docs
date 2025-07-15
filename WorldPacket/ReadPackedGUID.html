@@ -68,13 +68,13 @@
 
     
     <div class='docblock'>
-        <p>Reads and returns a packed [ObjectGuid] value from the <a class="mod" href="../WorldPacket/index.html">WorldPacket</a>.</p>
+        <p>Reads and returns an unsigned 16-bit integer value from the <a class="mod" href="../WorldPacket/index.html">WorldPacket</a>.</p>
 
         <h2 id="synopsis" class='section-header'>
             <a href="#synopsis">Synopsis</a>
         </h2>
         <p>
-            <code>guid = WorldPacket:ReadPackedGUID()</code>
+            <code>value = WorldPacket:ReadPackedGUID()</code>
         </p>
 
         <h2 id="arguments" class='section-header'>
@@ -89,8 +89,8 @@
         </h2>
         <p>
             <dl>
-                <dt><code><strong><a href="http://www.lua.org/pil/2.4.html">string</a></strong> guid</code></dt>
-                <dd class="docblock"><p>The unpacked GUID as a string. </p></dd>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> value</code></dt>
+                <dd class="docblock"><p>Value returned as string. </p><p><em>Valid numbers</em>: integers from 0 to 18,446,744,073,709,551,615.</p></dd>
             </dl>
         </p>
     </div>
