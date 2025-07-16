@@ -197,7 +197,7 @@ searchIndex["Achievement"] = {
 };searchIndex["GameObject"] = {
     "items": [
         [0, "", "GameObject", "Inherits all methods from: <a class=\"mod\" href=\"Object/index.html\">Object</a>, <a class=\"mod\" href=\"WorldObject/index.html\">WorldObject</a>"],
-        [3, "AddLoot", "", "Adds an <a class=\"mod\" href=\"Item/index.html\">Item</a> to the loot of a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>. Requires a gameobject with loot_template set to 0."],
+        [3, "AddLoot", "", "Adds an <a class=\"mod\" href=\"Item/index.html\">Item</a> to the loot of a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>.  Requires a gameobject with loot_template set to 0."],
         [3, "Despawn", "", "Despawns a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>"],
         [3, "GetDBTableGUIDLow", "", "Returns the guid of the <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a> that is used as the ID in the database"],
         [3, "GetDisplayId", "", "Returns display ID of the <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>"],
