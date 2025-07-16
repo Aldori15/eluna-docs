@@ -279,7 +279,7 @@ searchIndex["Achievement"] = {
         [3, "GetItemTemplate", "", "Returns the <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a> for the specified item ID.  The ItemTemplate contains all static data about an item, such as name, quality, stats, required level, and more."],
         [3, "GetLuaEngine", "", "Returns Lua engine's name."],
         [3, "GetMapById", "", "Returns a <a class=\"mod\" href=\"Map/index.html\">Map</a> by ID."],
-        [3, "GetMapEntrance", "", ""],
+        [3, "GetMapEntrance", "", "Return the entrance position (x, y, z, o) of the specified dungeon map id."],
         [3, "GetObjectGUID", "", "Builds a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>'s GUID."],
         [3, "GetOwnerHalaa", "", "Gets the faction which is the current owner of Halaa in Nagrand 0 = Alliance 1 = Horde"],
         [3, "GetPlayerByGUID", "", "Finds and Returns <a class=\"mod\" href=\"Player/index.html\">Player</a> by guid if found"],
