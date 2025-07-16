@@ -2,7 +2,7 @@ var searchIndex = {};
 
 searchIndex["Achievement"] = {
     "items": [
-        [0, "", "Achievement", ""],
+        [0, "", "Achievement", "Represents an entry from the game's achievement database (e.g., achievement earned for completing certain tasks)."],
         [3, "GetId", "", "Returns the <a class=\"mod\" href=\"Achievement/index.html\">Achievement</a>'s ID."],
         [3, "GetName", "", "Returns the <a class=\"mod\" href=\"Achievement/index.html\">Achievement</a>'s name."],
     ],
@@ -48,7 +48,7 @@ searchIndex["Achievement"] = {
     "paths": []
 };searchIndex["ChatHandler"] = {
     "items": [
-        [0, "", "ChatHandler", ""],
+        [0, "", "ChatHandler", "Provides access to in-game and console chat commands, messages, and selection context for command execution."],
         [3, "GetPlayer", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a> associated with the handler. Returns <code>nil</code> in the case of a console handler"],
         [3, "GetSelectedCreature", "", "Returns the selected <a class=\"mod\" href=\"Creature/index.html\">Creature</a>"],
         [3, "GetSelectedObject", "", "Returns the selected <a class=\"mod\" href=\"WorldObject/index.html\">WorldObject</a>"],
@@ -196,7 +196,7 @@ searchIndex["Achievement"] = {
     "paths": []
 };searchIndex["GameObject"] = {
     "items": [
-        [0, "", "GameObject", "Inherits all methods from: <a class=\"mod\" href=\"Object/index.html\">Object</a>, <a class=\"mod\" href=\"WorldObject/index.html\">WorldObject</a>"],
+        [0, "", "GameObject", "Represents a game object in the world, such as doors, chests, and other interactive objects."],
         [3, "AddLoot", "", "Adds an <a class=\"mod\" href=\"Item/index.html\">Item</a> to the loot of a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>.  Requires a gameobject with loot_template set to 0."],
         [3, "Despawn", "", "Despawns a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>"],
         [3, "GetDBTableGUIDLow", "", "Returns the guid of the <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a> that is used as the ID in the database"],
@@ -221,7 +221,7 @@ searchIndex["Achievement"] = {
     "paths": []
 };searchIndex["GemPropertiesEntry"] = {
     "items": [
-        [0, "", "GemPropertiesEntry", ""],
+        [0, "", "GemPropertiesEntry", "Represents static gem data used in item enhancement, including spell enchantments triggered by socketed gems."],
         [3, "GetId", "", "Returns the ID of a <a class=\"mod\" href=\"GemPropertiesEntry/index.html\">GemPropertiesEntry</a>."],
         [3, "GetSpellItemEnchantement", "", "Returns the spell item enchantment of a <a class=\"mod\" href=\"GemPropertiesEntry/index.html\">GemPropertiesEntry</a>."],
     ],
@@ -351,7 +351,7 @@ searchIndex["Achievement"] = {
     "paths": []
 };searchIndex["Group"] = {
     "items": [
-        [0, "", "Group", "Inherits all methods from: none"],
+        [0, "", "Group", ""],
         [3, "AddMember", "", "Adds a new member to the <a class=\"mod\" href=\"Group/index.html\">Group</a>"],
         [3, "ConvertToRaid", "", "Converts this <a class=\"mod\" href=\"Group/index.html\">Group</a> to a raid <a class=\"mod\" href=\"Group/index.html\">Group</a>"],
         [3, "Disband", "", "Disbands this <a class=\"mod\" href=\"Group/index.html\">Group</a>"],
@@ -381,7 +381,7 @@ searchIndex["Achievement"] = {
     "paths": []
 };searchIndex["Guild"] = {
     "items": [
-        [0, "", "Guild", "Inherits all methods from: none"],
+        [0, "", "Guild", ""],
         [3, "AddMember", "", "Adds the specified <a class=\"mod\" href=\"Player/index.html\">Player</a> to the <a class=\"mod\" href=\"Guild/index.html\">Guild</a> at the specified rank."],
         [3, "DeleteMember", "", "Removes the specified <a class=\"mod\" href=\"Player/index.html\">Player</a> from the <a class=\"mod\" href=\"Guild/index.html\">Guild</a>."],
         [3, "Disband", "", "Disbands the <a class=\"mod\" href=\"Guild/index.html\">Guild</a>"],
@@ -412,7 +412,7 @@ searchIndex["Achievement"] = {
     "paths": []
 };searchIndex["Item"] = {
     "items": [
-        [0, "", "Item", "Inherits all methods from: <a class=\"mod\" href=\"Object/index.html\">Object</a>"],
+        [0, "", "Item", "Represents an instance of an item in the game world."],
         [3, "CanBeTraded", "", "Returns 'true' if the <a class=\"mod\" href=\"Item/index.html\">Item</a> can be traded, 'false' otherwise"],
         [3, "ClearEnchantment", "", "Removes an enchant from the <a class=\"mod\" href=\"Item/index.html\">Item</a> by the specified slot"],
         [3, "GetAllowableClass", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a> classes allowed to use this <a class=\"mod\" href=\"Item/index.html\">Item</a>"],
@@ -472,7 +472,7 @@ searchIndex["Achievement"] = {
     "paths": []
 };searchIndex["ItemTemplate"] = {
     "items": [
-        [0, "", "ItemTemplate", ""],
+        [0, "", "ItemTemplate", "Represents item data defined in the database and DBCs, such as stats, quality, class restrictions, and display info."],
         [3, "GetAllowableClass", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a> classes allowed to use this <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>."],
         [3, "GetAllowableRace", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a> races allowed to use this <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>."],
         [3, "GetBuyCount", "", "Returns the <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>'s default purchase count."],
@@ -494,7 +494,7 @@ searchIndex["Achievement"] = {
     "paths": []
 };searchIndex["Loot"] = {
     "items": [
-        [0, "", "Loot", "Inherits all methods from: none"],
+        [0, "", "Loot", "Represents loot data for items, gold, and other rewards dropped by creatures or objects."],
         [3, "AddItem", "", "Adds an <a class=\"mod\" href=\"Item/index.html\">Item</a> to the <a class=\"mod\" href=\"Loot/index.html\">Loot</a> with specified parameters"],
         [3, "Clear", "", "Clears all items and gold from the <a class=\"mod\" href=\"Loot/index.html\">Loot</a>"],
         [3, "GenerateMoney", "", "Generates a random gold value for the <a class=\"mod\" href=\"Loot/index.html\">Loot</a> between min and max"],
@@ -833,7 +833,7 @@ searchIndex["Achievement"] = {
     "paths": []
 };searchIndex["Quest"] = {
     "items": [
-        [0, "", "Quest", "Inherits all methods from: none"],
+        [0, "", "Quest", "Represents a quest in the game, including its objectives, rewards, and conditions."],
         [3, "GetFlags", "", "Returns the <a class=\"mod\" href=\"Quest/index.html\">Quest</a>'s flags."],
         [3, "GetId", "", "Returns entry ID of the <a class=\"mod\" href=\"Quest/index.html\">Quest</a>."],
         [3, "GetLevel", "", "Returns the <a class=\"mod\" href=\"Quest/index.html\">Quest</a>'s level."],
@@ -849,7 +849,7 @@ searchIndex["Achievement"] = {
     "paths": []
 };searchIndex["Roll"] = {
     "items": [
-        [0, "", "Roll", ""],
+        [0, "", "Roll", "Represents a group loot roll session for an item, including player votes and roll statistics."],
         [3, "GetItemCount", "", "Returns the rolled <a class=\"mod\" href=\"Item/index.html\">Item</a>'s count."],
         [3, "GetItemGUID", "", "Returns the rolled <a class=\"mod\" href=\"Item/index.html\">Item</a>'s GUID."],
         [3, "GetItemId", "", "Returns the rolled <a class=\"mod\" href=\"Item/index.html\">Item</a>'s entry."],
@@ -885,7 +885,7 @@ searchIndex["Achievement"] = {
     "paths": []
 };searchIndex["SpellEntry"] = {
     "items": [
-        [0, "", "SpellEntry", ""],
+        [0, "", "SpellEntry", "Represents spell data loaded from the DBCs, including effects, costs, attributes, and requirements."],
         [3, "GetActiveIconID", "", "Returns the active icon ID for the <a class=\"mod\" href=\"SpellEntry/index.html\">SpellEntry</a>."],
         [3, "GetAreaGroupId", "", ""],
         [3, "GetAttributes", "", "Returns the attribute bitflags for the <a class=\"mod\" href=\"SpellEntry/index.html\">SpellEntry</a>."],
@@ -982,7 +982,7 @@ searchIndex["Achievement"] = {
     "paths": []
 };searchIndex["SpellInfo"] = {
     "items": [
-        [0, "", "SpellInfo", ""],
+        [0, "", "SpellInfo", "Represents spell metadata used for behavior, targeting, attributes, mechanics, auras, and conditions."],
         [3, "CanBeUsedInCombat", "", ""],
         [3, "CanDispelAura", "", ""],
         [3, "CanPierceImmuneAura", "", ""],
@@ -1074,7 +1074,7 @@ searchIndex["Achievement"] = {
     "paths": []
 };searchIndex["Unit"] = {
     "items": [
-        [0, "", "Unit", "Inherits all methods from: <a class=\"mod\" href=\"Object/index.html\">Object</a>, <a class=\"mod\" href=\"WorldObject/index.html\">WorldObject</a>"],
+        [0, "", "Unit", "Represents a non-<a class=\"mod\" href=\"Player/index.html\">Player</a> controlled <a class=\"mod\" href=\"Unit/index.html\">Unit</a> (i.e. NPCs)."],
         [3, "AddAura", "", "Adds the <a class=\"mod\" href=\"Aura/index.html\">Aura</a> of the given spell entry on the given target from the <a class=\"mod\" href=\"Unit/index.html\">Unit</a>."],
         [3, "AddThreat", "", "Adds threat to the <a class=\"mod\" href=\"Unit/index.html\">Unit</a> from the victim."],
         [3, "AddUnitState", "", "Adds the given unit state for the <a class=\"mod\" href=\"Unit/index.html\">Unit</a>."],
@@ -1239,7 +1239,7 @@ searchIndex["Achievement"] = {
     "paths": []
 };searchIndex["Vehicle"] = {
     "items": [
-        [0, "", "Vehicle", "Inherits all methods from: none"],
+        [0, "", "Vehicle", "Represents a vehicle in the game, which can carry passengers and provide special abilities or movement."],
         [3, "AddPassenger", "", "Adds <a class=\"mod\" href=\"Unit/index.html\">Unit</a> passenger to a specified seat in the <a class=\"mod\" href=\"Vehicle/index.html\">Vehicle</a>"],
         [3, "GetEntry", "", "Returns the <a class=\"mod\" href=\"Vehicle/index.html\">Vehicle</a>'s entry"],
         [3, "GetOwner", "", "Returns the <a class=\"mod\" href=\"Vehicle/index.html\">Vehicle</a>'s owner"],
@@ -1250,7 +1250,7 @@ searchIndex["Achievement"] = {
     "paths": []
 };searchIndex["WorldObject"] = {
     "items": [
-        [0, "", "WorldObject", "Inherits all methods from: <a class=\"mod\" href=\"Object/index.html\">Object</a>"],
+        [0, "", "WorldObject", "Represents a <a class=\"mod\" href=\"WorldObject/index.html\">WorldObject</a> in the game world."],
         [3, "GetAngle", "", "Returns the angle between this <a class=\"mod\" href=\"WorldObject/index.html\">WorldObject</a> and another <a class=\"mod\" href=\"WorldObject/index.html\">WorldObject</a> or a point."],
         [3, "GetAreaId", "", "Returns the current area ID of the <a class=\"mod\" href=\"WorldObject/index.html\">WorldObject</a>"],
         [3, "GetCreaturesInRange", "", "Returns a table of <a class=\"mod\" href=\"Creature/index.html\">Creature</a> objects in sight of the <a class=\"mod\" href=\"WorldObject/index.html\">WorldObject</a> or within the given range and/or with a specific entry ID"],
