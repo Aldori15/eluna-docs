@@ -351,7 +351,7 @@ searchIndex["Achievement"] = {
     "paths": []
 };searchIndex["Group"] = {
     "items": [
-        [0, "", "Group", ""],
+        [0, "", "Group", "Represents a player group in the game, such as a party or raid."],
         [3, "AddMember", "", "Adds a new member to the <a class=\"mod\" href=\"Group/index.html\">Group</a>"],
         [3, "ConvertToRaid", "", "Converts this <a class=\"mod\" href=\"Group/index.html\">Group</a> to a raid <a class=\"mod\" href=\"Group/index.html\">Group</a>"],
         [3, "Disband", "", "Disbands this <a class=\"mod\" href=\"Group/index.html\">Group</a>"],
@@ -381,7 +381,7 @@ searchIndex["Achievement"] = {
     "paths": []
 };searchIndex["Guild"] = {
     "items": [
-        [0, "", "Guild", ""],
+        [0, "", "Guild", "Represents a player guild. Used to manage guild members, ranks, guild bank."],
         [3, "AddMember", "", "Adds the specified <a class=\"mod\" href=\"Player/index.html\">Player</a> to the <a class=\"mod\" href=\"Guild/index.html\">Guild</a> at the specified rank."],
         [3, "DeleteMember", "", "Removes the specified <a class=\"mod\" href=\"Player/index.html\">Player</a> from the <a class=\"mod\" href=\"Guild/index.html\">Guild</a>."],
         [3, "Disband", "", "Disbands the <a class=\"mod\" href=\"Guild/index.html\">Guild</a>"],
