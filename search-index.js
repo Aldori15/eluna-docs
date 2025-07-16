@@ -925,7 +925,7 @@ searchIndex["Achievement"] = {
         [3, "GetEffectPointsPerComboPoint", "", "Returns a table with all effect points per combo point of <a class=\"mod\" href=\"SpellEntry/index.html\">SpellEntry</a>"],
         [3, "GetEffectRadiusIndex", "", "Returns a table with all effect radius index for <a class=\"mod\" href=\"SpellEntry/index.html\">SpellEntry</a>."],
         [3, "GetEffectRealPointsPerLevel", "", "Returns a table with all effect real points per level values for <a class=\"mod\" href=\"SpellEntry/index.html\">SpellEntry</a>."],
-        [3, "GetEffectSpellClassMask", "", ""],
+        [3, "GetEffectSpellClassMask", "", "Returns a table of [SpellFamilyFlags] for each effect of this <a class=\"mod\" href=\"SpellEntry/index.html\">SpellEntry</a>."],
         [3, "GetEffectTriggerSpell", "", "Returns a table with all effect trigger spell for <a class=\"mod\" href=\"SpellEntry/index.html\">SpellEntry</a>."],
         [3, "GetEffectValueMultiplier", "", "Returns a table with all effect value multiplier for <a class=\"mod\" href=\"SpellEntry/index.html\">SpellEntry</a>."],
         [3, "GetEquippedItemClass", "", "Returns the equipped item class ID for <a class=\"mod\" href=\"SpellEntry/index.html\">SpellEntry</a>."],
