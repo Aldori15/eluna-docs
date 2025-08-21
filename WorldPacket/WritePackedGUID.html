@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="API documentation for the WorldPacket:ReadPackedGUID method in the Eluna engine.">
+    <meta name="description" content="API documentation for the WorldPacket:WritePackedGUID method in the Eluna engine.">
     <meta name="keywords" content="eluna, lua, lua engine, azerothcore, script, scripting, doc, docs, documentation">
 
-    <title>WorldPacket:ReadPackedGUID - Eluna</title>
+    <title>WorldPacket:WritePackedGUID - Eluna</title>
 
     <link rel="stylesheet" type="text/css" href="../static/main.css">
     <link rel="stylesheet" type="text/css" href="../static/dark.css">
@@ -30,7 +30,7 @@
     <script src="sidebar.js"></script>
     <script>
       // Highlight current method by adding "current" class to it
-      var element = document.getElementById("WorldPacket:ReadPackedGUID");
+      var element = document.getElementById("WorldPacket:WritePackedGUID");
       if (element) {
         var classname = "current";
         arr = element.className.split(" ");
@@ -57,7 +57,7 @@
 <section id='main' class="content mod">
     <h1 class='fqn'>
         Method
-    <a class="mod" href="../WorldPacket/index.html">WorldPacket</a>:<a class="fn" href="../WorldPacket/ReadPackedGUID.html">ReadPackedGUID</a>
+    <a class="mod" href="../WorldPacket/index.html">WorldPacket</a>:<a class="fn" href="../WorldPacket/WritePackedGUID.html">WritePackedGUID</a>
         <span class='out-of-band'>
             <span id='render-detail'>
                 <a id="collapse-all" href="#">[-]</a>
@@ -68,31 +68,30 @@
 
     
     <div class='docblock'>
-        <p>Reads a packed GUID from the <a class="mod" href="../WorldPacket/index.html">WorldPacket</a> and returns it as a full 64-bit integer.
-The packed data size varies (2-9 bytes), but always unpacks to a complete 64-bit GUID.</p>
+        <p>Writes an ObjectGuid as packed GUID format to the <a class="mod" href="../WorldPacket/index.html">WorldPacket</a>.</p>
 
         <h2 id="synopsis" class='section-header'>
             <a href="#synopsis">Synopsis</a>
         </h2>
         <p>
-            <code>value = WorldPacket:ReadPackedGUID()</code>
+            <code>WorldPacket:WritePackedGUID( value )</code>
         </p>
 
         <h2 id="arguments" class='section-header'>
             <a href="#arguments">Arguments</a>
         </h2>
         <p>
-            None.
+            <dl>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> value</code></dt>
+                <dd class="docblock"><p>The ObjectGuid to be packed to the <a class="mod" href="../WorldPacket/index.html">WorldPacket</a>. </p><p><em>Valid numbers</em>: integers from 0 to 18,446,744,073,709,551,615.</p></dd>
+            </dl>
         </p>
 
         <h2 id="returns" class='section-header'>
             <a href="#returns">Returns</a>
         </h2>
         <p>
-            <dl>
-                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> value</code></dt>
-                <dd class="docblock"><p>Value returned as string. </p><p><em>Valid numbers</em>: integers from 0 to 18,446,744,073,709,551,615.</p></dd>
-            </dl>
+            Nothing.
         </p>
     </div>
 

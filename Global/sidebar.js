@@ -52,6 +52,7 @@ document.write(`
   <a id="Global:GetMapEntrance" class="fn" href="../Global/GetMapEntrance.html">GetMapEntrance</a>
   <a id="Global:GetObjectGUID" class="fn" href="../Global/GetObjectGUID.html">GetObjectGUID</a>
   <a id="Global:GetOwnerHalaa" class="fn" href="../Global/GetOwnerHalaa.html">GetOwnerHalaa</a>
+  <a id="Global:GetPackedGUIDSize" class="fn" href="../Global/GetPackedGUIDSize.html">GetPackedGUIDSize</a>
   <a id="Global:GetPlayerByGUID" class="fn" href="../Global/GetPlayerByGUID.html">GetPlayerByGUID</a>
   <a id="Global:GetPlayerByName" class="fn" href="../Global/GetPlayerByName.html">GetPlayerByName</a>
   <a id="Global:GetPlayerCount" class="fn" href="../Global/GetPlayerCount.html">GetPlayerCount</a>

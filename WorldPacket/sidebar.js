@@ -18,6 +18,7 @@ document.write(`
   <a id="WorldPacket:WriteFloat" class="fn" href="../WorldPacket/WriteFloat.html">WriteFloat</a>
   <a id="WorldPacket:WriteGUID" class="fn" href="../WorldPacket/WriteGUID.html">WriteGUID</a>
   <a id="WorldPacket:WriteLong" class="fn" href="../WorldPacket/WriteLong.html">WriteLong</a>
+  <a id="WorldPacket:WritePackedGUID" class="fn" href="../WorldPacket/WritePackedGUID.html">WritePackedGUID</a>
   <a id="WorldPacket:WriteShort" class="fn" href="../WorldPacket/WriteShort.html">WriteShort</a>
   <a id="WorldPacket:WriteString" class="fn" href="../WorldPacket/WriteString.html">WriteString</a>
   <a id="WorldPacket:WriteUByte" class="fn" href="../WorldPacket/WriteUByte.html">WriteUByte</a>
