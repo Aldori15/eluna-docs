@@ -68,8 +68,13 @@
 
     
     <div class='docblock'>
-        <p>Returns a table of items in the <a class="mod" href="../Loot/index.html">Loot</a> with keys: 
-id, index, count, needs_quest, is_looted, roll_winner_guid</p>
+        <p>Returns a table containing all items in this <a class="mod" href="../Loot/index.html">Loot</a>.</p>
+<p>Each item is represented as a table with the following fields:
+  - id: item ID
+  - index: item index in the loot list
+  - count: quantity of the item
+  - needs_quest: whether the item requires a quest
+  - is_looted: whether the item has been looted</p>
 
         <h2 id="synopsis" class='section-header'>
             <a href="#synopsis">Synopsis</a>
@@ -91,7 +96,7 @@ id, index, count, needs_quest, is_looted, roll_winner_guid</p>
         <p>
             <dl>
                 <dt><code><strong><a href="http://www.lua.org/pil/2.5.html">table</a></strong> items</code></dt>
-                <dd class="docblock"><em>See method description.</em></dd>
+                <dd class="docblock"><p>Array of item tables. </p></dd>
             </dl>
         </p>
     </div>

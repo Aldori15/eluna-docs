@@ -68,13 +68,16 @@
 
     
     <div class='docblock'>
-        <p>Returns 'true' if the <a class="mod" href="../Loot/index.html">Loot</a> contains the specified <a class="mod" href="../Item/index.html">Item</a>, 'false' otherwise</p>
+        <p>Returns <code>true</code> if the <a class="mod" href="../Loot/index.html">Loot</a> contains the specified item, and returns <code>false</code> otherwise.</p>
 
         <h2 id="synopsis" class='section-header'>
             <a href="#synopsis">Synopsis</a>
         </h2>
         <p>
-            <code>hasItem = Loot:HasItem( itemid, count )</code>
+            <code>hasItem = Loot:HasItem( itemId )</code>
+        </p>
+        <p>
+            <code>hasItem = Loot:HasItem( itemId, count )</code>
         </p>
 
         <h2 id="arguments" class='section-header'>
@@ -82,12 +85,12 @@
         </h2>
         <p>
             <dl>
-                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> itemid</code></dt>
-                <dd class="docblock"><p><em>Valid numbers</em>: integers from 0 to 4,294,967,295.</p></dd>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> itemId (0)</code></dt>
+                <dd class="docblock"><p>The ID of the item to check for. If 0, checks if any item exists. </p><p><em>Valid numbers</em>: integers from 0 to 4,294,967,295.</p></dd>
             </dl>
             <dl>
-                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> count</code></dt>
-                <dd class="docblock"><p><em>Valid numbers</em>: integers from 0 to 4,294,967,295.</p></dd>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> count (0)</code></dt>
+                <dd class="docblock"><p>Specific count to check for. If 0, ignores count. </p><p><em>Valid numbers</em>: integers from 0 to 4,294,967,295.</p></dd>
             </dl>
         </p>
 

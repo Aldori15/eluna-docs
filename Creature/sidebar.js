@@ -20,7 +20,6 @@ document.write(`
   <a id="Creature:GetAggroRange" class="fn" href="../Creature/GetAggroRange.html">GetAggroRange</a>
   <a id="Creature:GetCorpseDelay" class="fn" href="../Creature/GetCorpseDelay.html">GetCorpseDelay</a>
   <a id="Creature:GetCreatureFamily" class="fn" href="../Creature/GetCreatureFamily.html">GetCreatureFamily</a>
-  <a id="Creature:GetCreatureSpawnId" class="fn" href="../Creature/GetCreatureSpawnId.html">GetCreatureSpawnId</a>
   <a id="Creature:GetCreatureSpellCooldownDelay" class="fn" href="../Creature/GetCreatureSpellCooldownDelay.html">GetCreatureSpellCooldownDelay</a>
   <a id="Creature:GetCurrentWaypointId" class="fn" href="../Creature/GetCurrentWaypointId.html">GetCurrentWaypointId</a>
   <a id="Creature:GetDBTableGUIDLow" class="fn" href="../Creature/GetDBTableGUIDLow.html">GetDBTableGUIDLow</a>
@@ -38,6 +37,7 @@ document.write(`
   <a id="Creature:GetScriptId" class="fn" href="../Creature/GetScriptId.html">GetScriptId</a>
   <a id="Creature:GetScriptName" class="fn" href="../Creature/GetScriptName.html">GetScriptName</a>
   <a id="Creature:GetShieldBlockValue" class="fn" href="../Creature/GetShieldBlockValue.html">GetShieldBlockValue</a>
+  <a id="Creature:GetSpawnId" class="fn" href="../Creature/GetSpawnId.html">GetSpawnId</a>
   <a id="Creature:GetUnitFlags" class="fn" href="../Creature/GetUnitFlags.html">GetUnitFlags</a>
   <a id="Creature:GetUnitFlagsTwo" class="fn" href="../Creature/GetUnitFlagsTwo.html">GetUnitFlagsTwo</a>
   <a id="Creature:GetWanderRadius" class="fn" href="../Creature/GetWanderRadius.html">GetWanderRadius</a>

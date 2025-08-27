@@ -53,7 +53,8 @@
     </h1>
 
     
-    <p>Represents loot data for items, gold, and other rewards dropped by creatures or objects.</p>
+    <p>Represents loot that can be obtained from various sources like creatures, gameobjects, or items.</p>
+<p>Contains information about items that can be looted, their quantities, money, and loot state.</p>
 <p>Inherits all methods from: none</p>
 
     <h2 id='methods' class='section-header'><a href="#methods">Methods</a></h2>
@@ -64,7 +65,16 @@
                 <a class='fn' href='AddItem.html'>AddItem</a>
             </td>
             <td class='docblock short'>
-                <p>Adds an <a class="mod" href="../Item/index.html">Item</a> to the <a class="mod" href="../Loot/index.html">Loot</a> with specified parameters</p>
+                <p>Adds an item to the <a class="mod" href="../Loot/index.html">Loot</a> with the specified parameters.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='AddLooter.html'>AddLooter</a>
+            </td>
+            <td class='docblock short'>
+                <p>Adds a <a class="mod" href="../Player/index.html">Player</a> to the list of players currently looting this <a class="mod" href="../Loot/index.html">Loot</a>.</p>
             </td>
         </tr>
         <tr>
@@ -73,7 +83,7 @@
                 <a class='fn' href='Clear.html'>Clear</a>
             </td>
             <td class='docblock short'>
-                <p>Clears all items and gold from the <a class="mod" href="../Loot/index.html">Loot</a></p>
+                <p>Clears all items and money from this <a class="mod" href="../Loot/index.html">Loot</a>.</p>
             </td>
         </tr>
         <tr>
@@ -82,7 +92,25 @@
                 <a class='fn' href='GenerateMoney.html'>GenerateMoney</a>
             </td>
             <td class='docblock short'>
-                <p>Generates a random gold value for the <a class="mod" href="../Loot/index.html">Loot</a> between min and max</p>
+                <p>Generates a random amount of money for this <a class="mod" href="../Loot/index.html">Loot</a> within the specified range.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetContainer.html'>GetContainer</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the container GUID that holds this loot.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetItemCount.html'>GetItemCount</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the total number of items (regular + quest items) in this <a class="mod" href="../Loot/index.html">Loot</a>.</p>
             </td>
         </tr>
         <tr>
@@ -91,8 +119,34 @@
                 <a class='fn' href='GetItems.html'>GetItems</a>
             </td>
             <td class='docblock short'>
-                <p>Returns a table of items in the <a class="mod" href="../Loot/index.html">Loot</a> with keys: 
-id, index, count, needs_quest, is_looted, roll_winner_guid</p>
+                <p>Returns a table containing all items in this <a class="mod" href="../Loot/index.html">Loot</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetLootOwner.html'>GetLootOwner</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Player/index.html">Player</a> GUID that owns this loot.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetLootType.html'>GetLootType</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Loot/index.html">Loot</a> type.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetMaxSlotForPlayer.html'>GetMaxSlotForPlayer</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the maximum loot slot index available for the specified <a class="mod" href="../Player/index.html">Player</a>.</p>
             </td>
         </tr>
         <tr>
@@ -101,7 +155,25 @@ id, index, count, needs_quest, is_looted, roll_winner_guid</p>
                 <a class='fn' href='GetMoney.html'>GetMoney</a>
             </td>
             <td class='docblock short'>
-                <p>Returns the amount of gold in the <a class="mod" href="../Loot/index.html">Loot</a></p>
+                <p>Returns the amount of money in this <a class="mod" href="../Loot/index.html">Loot</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetRoundRobinPlayer.html'>GetRoundRobinPlayer</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Player/index.html">Player</a> GUID that owns this loot for round robin distribution.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetSourceWorldObject.html'>GetSourceWorldObject</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the source <a class="mod" href="../WorldObject/index.html">WorldObject</a> GUID for this loot.</p>
             </td>
         </tr>
         <tr>
@@ -110,7 +182,7 @@ id, index, count, needs_quest, is_looted, roll_winner_guid</p>
                 <a class='fn' href='GetUnlootedCount.html'>GetUnlootedCount</a>
             </td>
             <td class='docblock short'>
-                <p>Returns the number of unlooted items in the <a class="mod" href="../Loot/index.html">Loot</a></p>
+                <p>Returns the number of unlooted items in this <a class="mod" href="../Loot/index.html">Loot</a>.</p>
             </td>
         </tr>
         <tr>
@@ -119,7 +191,43 @@ id, index, count, needs_quest, is_looted, roll_winner_guid</p>
                 <a class='fn' href='HasItem.html'>HasItem</a>
             </td>
             <td class='docblock short'>
-                <p>Returns 'true' if the <a class="mod" href="../Loot/index.html">Loot</a> contains the specified <a class="mod" href="../Item/index.html">Item</a>, 'false' otherwise</p>
+                <p>Returns <code>true</code> if the <a class="mod" href="../Loot/index.html">Loot</a> contains the specified item, and returns <code>false</code> otherwise.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='HasItemForAll.html'>HasItemForAll</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns <code>true</code> if the <a class="mod" href="../Loot/index.html">Loot</a> has items available for all players and returns <code>false</code> otherwise.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='HasOverThresholdItem.html'>HasOverThresholdItem</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns <code>true</code> if the <a class="mod" href="../Loot/index.html">Loot</a> has items that are over the group loot threshold and returns <code>false</code> otherwise.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='HasQuestItems.html'>HasQuestItems</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns <code>true</code> if the <a class="mod" href="../Loot/index.html">Loot</a> contains quest items and returns <code>false</code> otherwise.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsEmpty.html'>IsEmpty</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns <code>true</code> if the <a class="mod" href="../Loot/index.html">Loot</a> is completely empty (no items and no money), returns <code>false</code> otherwise.</p>
             </td>
         </tr>
         <tr>
@@ -128,7 +236,7 @@ id, index, count, needs_quest, is_looted, roll_winner_guid</p>
                 <a class='fn' href='IsLooted.html'>IsLooted</a>
             </td>
             <td class='docblock short'>
-                <p>Returns 'true' if the <a class="mod" href="../Loot/index.html">Loot</a> has been looted, 'false' otherwise</p>
+                <p>Returns <code>true</code> if all loot has been taken from this <a class="mod" href="../Loot/index.html">Loot</a>, returns <code>false</code> otherwise.</p>
             </td>
         </tr>
         <tr>
@@ -137,7 +245,25 @@ id, index, count, needs_quest, is_looted, roll_winner_guid</p>
                 <a class='fn' href='RemoveItem.html'>RemoveItem</a>
             </td>
             <td class='docblock short'>
-                <p>Removes an <a class="mod" href="../Item/index.html">Item</a> from the <a class="mod" href="../Loot/index.html">Loot</a>, optionally reducing count</p>
+                <p>Removes the specified item from the <a class="mod" href="../Loot/index.html">Loot</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='RemoveLooter.html'>RemoveLooter</a>
+            </td>
+            <td class='docblock short'>
+                <p>Removes a <a class="mod" href="../Player/index.html">Player</a> from the list of players currently looting this <a class="mod" href="../Loot/index.html">Loot</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetContainer.html'>SetContainer</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the container GUID that holds this loot.</p>
             </td>
         </tr>
         <tr>
@@ -146,7 +272,25 @@ id, index, count, needs_quest, is_looted, roll_winner_guid</p>
                 <a class='fn' href='SetItemLooted.html'>SetItemLooted</a>
             </td>
             <td class='docblock short'>
-                <p>Sets the 'looted' flag on an <a class="mod" href="../Item/index.html">Item</a> in the <a class="mod" href="../Loot/index.html">Loot</a></p>
+                <p>Sets the looted status of a specific item in this <a class="mod" href="../Loot/index.html">Loot</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetLootOwner.html'>SetLootOwner</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Player/index.html">Player</a> GUID that owns this loot.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetLootType.html'>SetLootType</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Loot/index.html">Loot</a> type.</p>
             </td>
         </tr>
         <tr>
@@ -155,7 +299,25 @@ id, index, count, needs_quest, is_looted, roll_winner_guid</p>
                 <a class='fn' href='SetMoney.html'>SetMoney</a>
             </td>
             <td class='docblock short'>
-                <p>Sets the amount of gold in the <a class="mod" href="../Loot/index.html">Loot</a></p>
+                <p>Sets the amount of money in this <a class="mod" href="../Loot/index.html">Loot</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetRoundRobinPlayer.html'>SetRoundRobinPlayer</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Player/index.html">Player</a> GUID for round robin loot distribution.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetSourceWorldObject.html'>SetSourceWorldObject</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the source <a class="mod" href="../WorldObject/index.html">WorldObject</a> GUID for this loot.</p>
             </td>
         </tr>
         <tr>
@@ -164,7 +326,7 @@ id, index, count, needs_quest, is_looted, roll_winner_guid</p>
                 <a class='fn' href='SetUnlootedCount.html'>SetUnlootedCount</a>
             </td>
             <td class='docblock short'>
-                <p>Sets the unlooted count for the <a class="mod" href="../Loot/index.html">Loot</a></p>
+                <p>Sets the number of unlooted items in this <a class="mod" href="../Loot/index.html">Loot</a>.</p>
             </td>
         </tr>
         <tr>
@@ -173,7 +335,7 @@ id, index, count, needs_quest, is_looted, roll_winner_guid</p>
                 <a class='fn' href='UpdateItemIndex.html'>UpdateItemIndex</a>
             </td>
             <td class='docblock short'>
-                <p>Updates each item's index in the <a class="mod" href="../Loot/index.html">Loot</a> to match its current order</p>
+                <p>Updates the index of all items in this <a class="mod" href="../Loot/index.html">Loot</a> to match their position in the list.</p>
             </td>
         </tr>
     </table>

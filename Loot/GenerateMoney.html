@@ -68,13 +68,13 @@
 
     
     <div class='docblock'>
-        <p>Generates a random gold value for the <a class="mod" href="../Loot/index.html">Loot</a> between min and max</p>
+        <p>Generates a random amount of money for this <a class="mod" href="../Loot/index.html">Loot</a> within the specified range.</p>
 
         <h2 id="synopsis" class='section-header'>
             <a href="#synopsis">Synopsis</a>
         </h2>
         <p>
-            <code>Loot:GenerateMoney( min, max )</code>
+            <code>Loot:GenerateMoney( minGold, maxGold )</code>
         </p>
 
         <h2 id="arguments" class='section-header'>
@@ -82,12 +82,12 @@
         </h2>
         <p>
             <dl>
-                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> min</code></dt>
-                <dd class="docblock"><p><em>Valid numbers</em>: integers from 0 to 4,294,967,295.</p></dd>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> minGold</code></dt>
+                <dd class="docblock"><p>Minimum amount of money in copper. </p><p><em>Valid numbers</em>: integers from 0 to 4,294,967,295.</p></dd>
             </dl>
             <dl>
-                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> max</code></dt>
-                <dd class="docblock"><p><em>Valid numbers</em>: integers from 0 to 4,294,967,295.</p></dd>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> maxGold</code></dt>
+                <dd class="docblock"><p>Maximum amount of money in copper. </p><p><em>Valid numbers</em>: integers from 0 to 4,294,967,295.</p></dd>
             </dl>
         </p>
 

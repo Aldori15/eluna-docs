@@ -68,13 +68,20 @@
 
     
     <div class='docblock'>
-        <p>Removes an <a class="mod" href="../Item/index.html">Item</a> from the <a class="mod" href="../Loot/index.html">Loot</a>, optionally reducing count</p>
+        <p>Removes the specified item from the <a class="mod" href="../Loot/index.html">Loot</a>.</p>
+<p>If count is specified, removes only that amount. Otherwise removes all items with the ID.</p>
 
         <h2 id="synopsis" class='section-header'>
             <a href="#synopsis">Synopsis</a>
         </h2>
         <p>
-            <code>Loot:RemoveItem( itemid, isCountSpecified, count )</code>
+            <code>Loot:RemoveItem( itemId )</code>
+        </p>
+        <p>
+            <code>Loot:RemoveItem( itemId, isCountSpecified )</code>
+        </p>
+        <p>
+            <code>Loot:RemoveItem( itemId, isCountSpecified, count )</code>
         </p>
 
         <h2 id="arguments" class='section-header'>
@@ -82,16 +89,16 @@
         </h2>
         <p>
             <dl>
-                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> itemid</code></dt>
-                <dd class="docblock"><p><em>Valid numbers</em>: integers from 0 to 4,294,967,295.</p></dd>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> itemId</code></dt>
+                <dd class="docblock"><p>The ID of the item to remove. </p><p><em>Valid numbers</em>: integers from 0 to 4,294,967,295.</p></dd>
             </dl>
             <dl>
-                <dt><code><strong><a href="http://www.lua.org/pil/2.2.html">boolean</a></strong> isCountSpecified</code></dt>
-                <dd class="docblock"><em>See method description.</em></dd>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.2.html">boolean</a></strong> isCountSpecified (false)</code></dt>
+                <dd class="docblock"><p>If <code>true</code>, only removes the specified count. </p></dd>
             </dl>
             <dl>
-                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> count</code></dt>
-                <dd class="docblock"><p>Required only if isCountSpecified is true. </p><p><em>Valid numbers</em>: integers from 0 to 4,294,967,295.</p></dd>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> count (0)</code></dt>
+                <dd class="docblock"><p>Amount to remove when isCountSpecified is true. </p><p><em>Valid numbers</em>: integers from 0 to 4,294,967,295.</p></dd>
             </dl>
         </p>
 

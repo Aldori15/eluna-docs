@@ -68,13 +68,17 @@
 
     
     <div class='docblock'>
-        <p>Adds an <a class="mod" href="../Item/index.html">Item</a> to the <a class="mod" href="../Loot/index.html">Loot</a> with specified parameters</p>
+        <p>Adds an item to the <a class="mod" href="../Loot/index.html">Loot</a> with the specified parameters.</p>
+<p>If an item with the same ID already exists and its count is less than 255, the count will be increased instead of adding a new entry.</p>
 
         <h2 id="synopsis" class='section-header'>
             <a href="#synopsis">Synopsis</a>
         </h2>
         <p>
-            <code>Loot:AddItem( itemid, chance, needs_quest, loot_mode, groupid, min_count, max_count )</code>
+            <code>Loot:AddItem( itemId, minCount, maxCount, chance, lootMode )</code>
+        </p>
+        <p>
+            <code>Loot:AddItem( itemId, minCount, maxCount, chance, lootMode, needsQuest )</code>
         </p>
 
         <h2 id="arguments" class='section-header'>
@@ -82,32 +86,28 @@
         </h2>
         <p>
             <dl>
-                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> itemid</code></dt>
-                <dd class="docblock"><p><em>Valid numbers</em>: integers from 0 to 4,294,967,295.</p></dd>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> itemId</code></dt>
+                <dd class="docblock"><p>The ID of the item to add. </p><p><em>Valid numbers</em>: integers from 0 to 4,294,967,295.</p></dd>
+            </dl>
+            <dl>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> minCount</code></dt>
+                <dd class="docblock"><p>Minimum count of the item. </p><p><em>Valid numbers</em>: integers from 0 to 255.</p></dd>
+            </dl>
+            <dl>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> maxCount</code></dt>
+                <dd class="docblock"><p>Maximum count of the item. </p><p><em>Valid numbers</em>: integers from 0 to 255.</p></dd>
             </dl>
             <dl>
                 <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> chance</code></dt>
-                <dd class="docblock"><p><em>Valid numbers</em>: all decimal numbers.</p></dd>
+                <dd class="docblock"><p>Chance for the item to drop (0-100). </p><p><em>Valid numbers</em>: all decimal numbers.</p></dd>
             </dl>
             <dl>
-                <dt><code><strong><a href="http://www.lua.org/pil/2.2.html">boolean</a></strong> needs_quest (false)</code></dt>
-                <dd class="docblock"><em>See method description.</em></dd>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> lootMode</code></dt>
+                <dd class="docblock"><p>Loot mode for the item. </p><p><em>Valid numbers</em>: integers from 0 to 65,535.</p></dd>
             </dl>
             <dl>
-                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> loot_mode</code></dt>
-                <dd class="docblock"><p><em>Valid numbers</em>: integers from 0 to 65,535.</p></dd>
-            </dl>
-            <dl>
-                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> groupid</code></dt>
-                <dd class="docblock"><p><em>Valid numbers</em>: integers from 0 to 255.</p></dd>
-            </dl>
-            <dl>
-                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> min_count</code></dt>
-                <dd class="docblock"><p><em>Valid numbers</em>: integers from 0 to 255.</p></dd>
-            </dl>
-            <dl>
-                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> max_count</code></dt>
-                <dd class="docblock"><p><em>Valid numbers</em>: integers from 0 to 255.</p></dd>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.2.html">boolean</a></strong> needsQuest (false)</code></dt>
+                <dd class="docblock"><p>If <code>true</code>, the item requires a quest to be looted. </p></dd>
             </dl>
         </p>
 
