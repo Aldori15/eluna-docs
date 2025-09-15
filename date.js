@@ -1,1 +1,1 @@
-document.write("15/09/2025");
+document.write("09/15/2025");
