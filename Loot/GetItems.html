@@ -79,13 +79,11 @@ Each item is represented as a table with the following fields:
   roll_winner_guid: GUID of the player who won the item roll
 </pre>
 
-<p>@return items (table) : array of item tables</p>
-
         <h2 id="synopsis" class='section-header'>
             <a href="#synopsis">Synopsis</a>
         </h2>
         <p>
-            <code>Loot:GetItems()</code>
+            <code>items = Loot:GetItems()</code>
         </p>
 
         <h2 id="arguments" class='section-header'>
@@ -99,7 +97,10 @@ Each item is represented as a table with the following fields:
             <a href="#returns">Returns</a>
         </h2>
         <p>
-            Nothing.
+            <dl>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.5.html">table</a></strong> items</code></dt>
+                <dd class="docblock"><p>Array of item tables. </p></dd>
+            </dl>
         </p>
     </div>
 
