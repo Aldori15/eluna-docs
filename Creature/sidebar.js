@@ -1,6 +1,5 @@
 document.write(`
   <a id="Creature:AddLootMode" class="fn" href="../Creature/AddLootMode.html">AddLootMode</a>
-  <a id="Creature:AllLootRemoved" class="fn" href="../Creature/AllLootRemoved.html">AllLootRemoved</a>
   <a id="Creature:AttackStart" class="fn" href="../Creature/AttackStart.html">AttackStart</a>
   <a id="Creature:CallAssistance" class="fn" href="../Creature/CallAssistance.html">CallAssistance</a>
   <a id="Creature:CallForHelp" class="fn" href="../Creature/CallForHelp.html">CallForHelp</a>
@@ -22,6 +21,7 @@ document.write(`
   <a id="Creature:GetCreatureFamily" class="fn" href="../Creature/GetCreatureFamily.html">GetCreatureFamily</a>
   <a id="Creature:GetCreatureSpellCooldownDelay" class="fn" href="../Creature/GetCreatureSpellCooldownDelay.html">GetCreatureSpellCooldownDelay</a>
   <a id="Creature:GetCurrentWaypointId" class="fn" href="../Creature/GetCurrentWaypointId.html">GetCurrentWaypointId</a>
+  <a id="Creature:GetDBTableGUIDLow" class="fn" href="../Creature/GetDBTableGUIDLow.html">GetDBTableGUIDLow</a>
   <a id="Creature:GetDefaultMovementType" class="fn" href="../Creature/GetDefaultMovementType.html">GetDefaultMovementType</a>
   <a id="Creature:GetExtraFlags" class="fn" href="../Creature/GetExtraFlags.html">GetExtraFlags</a>
   <a id="Creature:GetHomePosition" class="fn" href="../Creature/GetHomePosition.html">GetHomePosition</a>

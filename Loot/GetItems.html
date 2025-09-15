@@ -69,18 +69,23 @@
     
     <div class='docblock'>
         <p>Returns a table containing all items in this <a class="mod" href="../Loot/index.html">Loot</a>.</p>
-<p>Each item is represented as a table with the following fields:
-  - id: item ID
-  - index: item index in the loot list
-  - count: quantity of the item
-  - needs_quest: whether the item requires a quest
-  - is_looted: whether the item has been looted</p>
+<pre>
+Each item is represented as a table with the following fields:
+  id: item ID
+  index: item index in the loot list
+  count: quantity of the item
+  needs_quest: whether the item requires a quest
+  is_looted: whether the item has been looted
+  roll_winner_guid: GUID of the player who won the item roll
+</pre>
+
+<p>@return items (table) : array of item tables</p>
 
         <h2 id="synopsis" class='section-header'>
             <a href="#synopsis">Synopsis</a>
         </h2>
         <p>
-            <code>items = Loot:GetItems()</code>
+            <code>Loot:GetItems()</code>
         </p>
 
         <h2 id="arguments" class='section-header'>
@@ -94,10 +99,7 @@
             <a href="#returns">Returns</a>
         </h2>
         <p>
-            <dl>
-                <dt><code><strong><a href="http://www.lua.org/pil/2.5.html">table</a></strong> items</code></dt>
-                <dd class="docblock"><p>Array of item tables. </p></dd>
-            </dl>
+            Nothing.
         </p>
     </div>
 
