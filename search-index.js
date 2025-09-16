@@ -196,7 +196,7 @@ searchIndex["Achievement"] = {
 };searchIndex["GameObject"] = {
     "items": [
         [0, "", "GameObject", "Represents a game object in the world, such as doors, chests, and other interactive objects."],
-        [3, "AddLoot", "", ""],
+        [3, "AddLoot", "", "Adds an <a class=\"mod\" href=\"Item/index.html\">Item</a> to the loot of a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a> Requires an gameobject with loot_template set to 0."],
         [3, "Despawn", "", "Despawns a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>"],
         [3, "GetDisplayId", "", "Returns display ID of the <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>"],
         [3, "GetGoState", "", "Returns the state of a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a> Below are client side [GOState]s off of 3.3.5a"],
