@@ -100,7 +100,6 @@ searchIndex["Achievement"] = {
         [3, "GetCreatureFamily", "", "Returns the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>'s creature family ID (enumerated in CreatureFamily.dbc)."],
         [3, "GetCreatureSpellCooldownDelay", "", "Returns the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>'s cooldown for <code>spellID</code>."],
         [3, "GetCurrentWaypointId", "", "Returns the current waypoint ID of the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>."],
-        [3, "GetDBTableGUIDLow", "", "Returns the guid of the <a class=\"mod\" href=\"Creature/index.html\">Creature</a> that is used as the ID in the database"],
         [3, "GetDefaultMovementType", "", "Returns the default movement type for this <a class=\"mod\" href=\"Creature/index.html\">Creature</a>."],
         [3, "GetExtraFlags", "", "Returns the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>'s Extra flags."],
         [3, "GetHomePosition", "", "Returns position the <a class=\"mod\" href=\"Creature/index.html\">Creature</a> returns to when evading from combat   or respawning."],
@@ -161,7 +160,7 @@ searchIndex["Achievement"] = {
         [3, "SetNPCFlags", "", "Sets the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>'s NPC flags to <code>flags</code>."],
         [3, "SetNoCallAssistance", "", "Sets whether the <a class=\"mod\" href=\"Creature/index.html\">Creature</a> can call nearby enemies for help in combat or not."],
         [3, "SetNoSearchAssistance", "", "Sets whether the <a class=\"mod\" href=\"Creature/index.html\">Creature</a> can search for assistance at low health or not."],
-        [3, "SetReactState", "", "Sets the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>'s ReactState to <code>state</code>."],
+        [3, "SetReactState", "", "Sets the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>'s current ReactState."],
         [3, "SetRegeneratingHealth", "", "Sets whether the <a class=\"mod\" href=\"Creature/index.html\">Creature</a> can regenerate health or not."],
         [3, "SetRespawnDelay", "", "Sets the time it takes for the <a class=\"mod\" href=\"Creature/index.html\">Creature</a> to respawn when killed."],
         [3, "SetUnitFlags", "", "Sets the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>'s Unit flags to <code>flags</code>."],
@@ -196,7 +195,7 @@ searchIndex["Achievement"] = {
 };searchIndex["GameObject"] = {
     "items": [
         [0, "", "GameObject", "Represents a game object in the world, such as doors, chests, and other interactive objects."],
-        [3, "AddLoot", "", "Adds an <a class=\"mod\" href=\"Item/index.html\">Item</a> to the loot of a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a> Requires an gameobject with loot_template set to 0."],
+        [3, "AddLoot", "", "Adds an <a class=\"mod\" href=\"Item/index.html\">Item</a> to the loot of a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>.  Requires a gameobject with loot_template set to 0."],
         [3, "Despawn", "", "Despawns a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>"],
         [3, "GetDisplayId", "", "Returns display ID of the <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>"],
         [3, "GetGoState", "", "Returns the state of a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a> Below are client side [GOState]s off of 3.3.5a"],
