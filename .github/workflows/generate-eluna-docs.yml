@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
       - name: "clone mod-ale source"
         run: |
-          git clone --single-branch https://https://github.com/Aldori15/mod-ale
+          git clone --single-branch https://github.com/Aldori15/mod-ale
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
