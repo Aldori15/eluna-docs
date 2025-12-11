@@ -69,16 +69,15 @@
     
     <div class='docblock'>
         <p>The <a class="mod" href="../Unit/index.html">Unit</a> tries to attack a given target</p>
-<p>@return didAttack : if the <a class="mod" href="../Unit/index.html">Unit</a> did not attack</p>
 
         <h2 id="synopsis" class='section-header'>
             <a href="#synopsis">Synopsis</a>
         </h2>
         <p>
-            <code>Unit:Attack( who )</code>
+            <code>didAttack = Unit:Attack( who )</code>
         </p>
         <p>
-            <code>Unit:Attack( who, meleeAttack )</code>
+            <code>didAttack = Unit:Attack( who, meleeAttack )</code>
         </p>
 
         <h2 id="arguments" class='section-header'>
@@ -99,7 +98,10 @@
             <a href="#returns">Returns</a>
         </h2>
         <p>
-            Nothing.
+            <dl>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.2.html">boolean</a></strong> didAttack</code></dt>
+                <dd class="docblock"><p>If the <a class="mod" href="../Unit/index.html">Unit</a> did not attack. </p></dd>
+            </dl>
         </p>
     </div>
 
