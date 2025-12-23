@@ -83,6 +83,9 @@
         <p>
             <code>Loot:AddItem( itemId, minCount, maxCount, chance, lootMode, needsQuest, allowStacking )</code>
         </p>
+        <p>
+            <code>Loot:AddItem( itemId, minCount, maxCount, chance, lootMode, needsQuest, allowStacking, stripFlagsMask )</code>
+        </p>
 
         <h2 id="arguments" class='section-header'>
             <a href="#arguments">Arguments</a>
@@ -115,6 +118,10 @@
             <dl>
                 <dt><code><strong><a href="http://www.lua.org/pil/2.2.html">boolean</a></strong> allowStacking (true)</code></dt>
                 <dd class="docblock"><p>If <code>true</code>, allow items to stack in the loot window. </p></dd>
+            </dl>
+            <dl>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> stripFlagsMask (0)</code></dt>
+                <dd class="docblock"><p>(optional) bitmask of ItemTemplate flags to temporarily strip during this AddItem call. </p><p><em>Valid numbers</em>: integers from 0 to 4,294,967,295.</p></dd>
             </dl>
         </p>
 
