@@ -517,6 +517,7 @@ searchIndex["ALEQuery"] = {
         [3, "HasQuestItems", "", "Returns <code>true</code> if the <a class=\"mod\" href=\"Loot/index.html\">Loot</a> contains quest items and returns <code>false</code> otherwise."],
         [3, "IsEmpty", "", "Returns <code>true</code> if the <a class=\"mod\" href=\"Loot/index.html\">Loot</a> is completely empty (no items and no money), returns <code>false</code> otherwise."],
         [3, "IsLooted", "", "Returns <code>true</code> if all loot has been taken from this <a class=\"mod\" href=\"Loot/index.html\">Loot</a>, returns <code>false</code> otherwise."],
+        [3, "RefreshForPlayer", "", "Rebuilds the per-player loot-view caches (quest/FFA/conditional) for this Loot. Useful if Lua modifies loot contents after the player already opened the loot window."],
         [3, "RemoveItem", "", "Removes the specified item from the <a class=\"mod\" href=\"Loot/index.html\">Loot</a>."],
         [3, "RemoveLooter", "", "Removes a <a class=\"mod\" href=\"Player/index.html\">Player</a> from the list of players currently looting this <a class=\"mod\" href=\"Loot/index.html\">Loot</a>."],
         [3, "SetContainer", "", "Sets the container GUID that holds this loot."],

@@ -20,6 +20,7 @@ document.write(`
   <a id="Loot:HasQuestItems" class="fn" href="../Loot/HasQuestItems.html">HasQuestItems</a>
   <a id="Loot:IsEmpty" class="fn" href="../Loot/IsEmpty.html">IsEmpty</a>
   <a id="Loot:IsLooted" class="fn" href="../Loot/IsLooted.html">IsLooted</a>
+  <a id="Loot:RefreshForPlayer" class="fn" href="../Loot/RefreshForPlayer.html">RefreshForPlayer</a>
   <a id="Loot:RemoveItem" class="fn" href="../Loot/RemoveItem.html">RemoveItem</a>
   <a id="Loot:RemoveLooter" class="fn" href="../Loot/RemoveLooter.html">RemoveLooter</a>
   <a id="Loot:SetContainer" class="fn" href="../Loot/SetContainer.html">SetContainer</a>
