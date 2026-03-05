@@ -101,6 +101,7 @@ searchIndex["ALEQuery"] = {
     "items": [
         [0, "", "Creature", "Non-<a class=\"mod\" href=\"Player/index.html\">Player</a> controlled <a class=\"mod\" href=\"Unit/index.html\">Unit</a>s (i.e. NPCs)."],
         [3, "AddLootMode", "", "Adds a loot mode to the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>"],
+        [3, "AllLootRemovedFromCorpse", "", "Handles this <a class=\"mod\" href=\"Creature/index.html\">Creature</a>'s corpse state after all loot is removed."],
         [3, "AttackStart", "", "Make the <a class=\"mod\" href=\"Creature/index.html\">Creature</a> attack <code>target</code>."],
         [3, "CallAssistance", "", "Make the <a class=\"mod\" href=\"Creature/index.html\">Creature</a> call for assistance in combat from other nearby <a class=\"mod\" href=\"Creature/index.html\">Creature</a>s."],
         [3, "CallForHelp", "", "Make the <a class=\"mod\" href=\"Creature/index.html\">Creature</a> call for help in combat from friendly <a class=\"mod\" href=\"Creature/index.html\">Creature</a>s within <code>radius</code>."],
